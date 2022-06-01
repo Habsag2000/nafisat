@@ -1,0 +1,118 @@
+.container {
+ display: grid;
+ grid-gap: 10px;
+ grid-template-areas:
+  "header header header header"
+  "sidebar main main main"
+  "sidebar photo photo button"
+  "footer footer footer footer";
+}
+body{
+  background-color:#96BCEF;
+}
+
+.item {
+ background-color: Black;
+ text-align: center;
+ padding: 20px;
+ border-radius: 5px;
+}
+
+.header {
+ grid-area: header;
+}
+
+.sidebar {
+ grid-area: sidebar;
+}
+
+.main {
+ grid-area: main;
+}
+
+.photo {
+ grid-area: photo;
+ margin: 10pxpx 0 0 -20px;
+}
+
+ul{
+  display: relative;
+}
+li{
+  list-style-type: none;
+  padding-bottom: 30px;
+}
+#a{
+  text-decoration: none;
+  color: green;
+  font-family: cursive;
+  font-weight: bold;
+  font-size: 30px;
+ 
+}
+ 
+}
+.cl{
+  margin: 20px 0 -50px 0;
+  padding-bottom: 30px;
+ color: blue;
+}
+h1{
+  color: orange;
+  font-family: cursive;
+  font-weight: bold;
+  box-shadow: 20px blue;
+}
+p{
+  color:blue;
+}
+marquee{
+  color: teal;
+ 
+}
+button{
+  font-family: Times New Roman;
+  font-size: 30px;
+  font-weight: bold;
+  background-color: green;
+  color: white;
+box-shadow: 20px blue;
+}
+fieldset{
+ font-family: cursive;
+ font-weight: bold;
+ font-size: 30px;
+ color:  whitesmoke;
+}
+select{
+  color: blue;
+  font-size: 20px;
+  font-weight: bold;
+ 
+}
+input{
+  background-color: teal;
+  border-radius: 20px;
+  color: Pink;
+}
+footer{
+  background-color:#96BCEF;
+  color: red;
+  font-weight: bold;
+  font-size: 20px;
+  border: 20px solid blue;
+}
+.fb{
+  background-color:#96BCEF;
+  color: red;
+  font-weight: bold;
+  font-size: 20px;
+  border: 20px solid blue;
+  padding: -20px;
+}
+  .pa{
+    font-size: 40px;
+    color: yellow;
+    font-weight: bold;
+  }
+
